@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vortex Protector - Discord Bot Authorization</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0d1117; color: #e6edf3; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+    .container { max-width: 600px; width: 100%; text-align: center; }
+    .card { background: #161b22; border: 1px solid #30363d; border-radius: 16px; padding: 48px 40px; }
+    .logo { width: 80px; height: 80px; margin: 0 auto 24px; background: linear-gradient(135deg, #58a6ff, #a371f7); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 12px; background: linear-gradient(135deg, #58a6ff, #a371f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .subtitle { color: #8b949e; margin-bottom: 32px; font-size: 1.1rem; line-height: 1.6; }
+    .features { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 32px; text-align: left; }
+    .feature { background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 12px 16px; display: flex; align-items: center; gap: 10px; font-size: 0.9rem; }
+    .feature-icon { width: 24px; height: 24px; background: linear-gradient(135deg, #58a6ff, #a371f7); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 0.9rem; flex-shrink: 0; }
+    .btn { display: inline-flex; align-items: center; gap: 10px; padding: 16px 32px; background: linear-gradient(135deg, #58a6ff, #a371f7); color: #fff; font-size: 1.1rem; font-weight: 600; border: none; border-radius: 10px; cursor: pointer; text-decoration: none; transition: all 0.2s; }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(88, 166, 255, 0.4); }
+    .btn-icon { font-size: 1.2rem; }
+    .footer { margin-top: 32px; color: #8b949e; font-size: 0.85rem; }
+    .footer a { color: #58a6ff; text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="logo">🛡️</div>
+      <h1>Vortex Protector</h1>
+      <p class="subtitle">Add Wick-style server protection to your Discord servers with one click.</p>
+      
+      <div class="features">
+        <div class="feature"><span class="feature-icon">🛡️</span>Anti-Raid & Anti-Nuke</div>
+        <div class="feature"><span class="feature-icon">🔇</span>Anti-Spam & Mass Mention</div>
+        <div class="feature"><span class="feature-icon">🚫</span>Anti-Alt & Anti-Link</div>
+        <div class="feature"><span class="feature-icon">📝</span>Comprehensive Logging</div>
+      </div>
+      
+      <a href="/auth/discord" class="btn">
+        <span class="btn-icon">🔗</span>
+        Add to Discord
+      </a>
+      
+      <div class="footer">
+        <p>You will be redirected to Discord to authorize the bot and select servers.</p>
+        <p><a href="https://github.com/athallajovian9-cyber/VortexProtector" target="_blank">View on GitHub</a> • <a href="https://discord.gg/QtyBucygQ6" target="_blank">Support Server</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

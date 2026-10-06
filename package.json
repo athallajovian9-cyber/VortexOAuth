@@ -1,0 +1,13 @@
+{
+  "name": "vortex-oauth",
+  "version": "1.0.0",
+  "description": "Vortex Protector Discord OAuth - Cloudflare Pages",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
